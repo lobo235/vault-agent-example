@@ -1,0 +1,1 @@
+{{ with secret "kv/1234/dev/tls_cert7" }}{{ .Data.data.tls_cert7 }}{{ end }}

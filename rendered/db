@@ -1,0 +1,7 @@
+db {
+  host = dbhost.example.com
+  port = 3308
+  username = dbuser
+  password = #1_best_password_ever!
+  database = test_db
+}

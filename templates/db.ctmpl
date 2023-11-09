@@ -1,0 +1,7 @@
+db {
+  host = dbhost.example.com
+  port = 3308
+  username = dbuser
+  password = {{ with secret "kv/1234/dev/db" }}{{ .Data.data.db }}{{ end }}
+  database = test_db
+}
